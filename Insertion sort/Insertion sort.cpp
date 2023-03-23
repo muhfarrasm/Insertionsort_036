@@ -64,3 +64,10 @@ void display() {						// Prosedur display
 	}
 	cout << endl;
 }
+
+int main()
+{
+	input();			// Memanggil input
+	insertionsort();	// Memanggil insertionsort
+	display();			// Memanggil display
+}
